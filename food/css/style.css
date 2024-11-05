@@ -1,0 +1,463 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat-Regular.woff2') format('woff2'),
+        url('Montserrat-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat-Bold.woff2') format('woff2'),
+        url('Montserrat-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    color: #fff;
+}
+body {
+    background-color: #21243d;
+    contain: content;
+}
+.container{
+    width: 1340px;
+    margin: 0 auto;
+}
+
+/* hd grp one */
+.inside-hd-grp-one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0 20px 0;
+}
+.inside-hd-grp-one nav ul{
+    display: flex;
+}
+.inside-hd-grp-one nav ul li{
+    list-style: none;
+    padding-right: 65px;
+}
+.inside-hd-grp-one nav ul li a{
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-size: 25px;
+}
+.search-icon span li{
+    font-size: 25px ;
+}
+.menu{
+    display: none;
+}
+.inside-menu {
+    display: flex;
+    flex-direction: column;     
+}
+.menu span {
+    background: #fff;
+    width: 20px;
+    height: 3px;
+    margin-top: 4px;
+    display: block;
+}
+
+/* hd-grp-two */
+.hd-grp-two{
+    background: url(../images/banner.jpg);
+    background-size: 100%;
+    /* z-index: -2; */
+}
+.hd-grp-two-txt{
+    padding: 160px 0 150px 0;
+}
+.hd-grp-two h2{
+    font-family: 'Montserrat';
+    font-size: 125px;
+}
+.hd-grp-two p{
+    font-family: 'Montserrat';
+    font-size: 30px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.hd-grp-two button{
+    font-family: 'Montserrat';
+    font-size: 25px;
+    font-weight: 700;
+    padding: 20px 75px;
+    background-color: #21243d;
+    border: 0;
+    border-radius: 40px;
+}
+.hd-grp-one{
+    display: flex;
+}
+
+
+/* grp-one */
+
+.grp-one{
+    position: relative;
+    text-align: center;
+    padding: 90px 0 125px 0;
+}
+.grp-one-img1,.grp-one-img2,.grp-one-img3,.grp-one-img4,.grp-one-img5{
+    position: absolute;
+}
+.grp-one-img1{
+    left: 20%;
+    top: -11px;
+    z-index: -1;
+}
+.grp-one-img2{
+    right: 0;
+    top: -25px;
+    z-index: -5;
+}
+.grp-one-img3 {
+    right: 0;
+    top: 45%;
+}
+.grp-one-img4 {
+    left: -60px;
+    bottom: 12%;
+}
+.grp-one-img5{
+    right: 0;
+    bottom: 55px;
+}
+.grp-one-cards{
+    padding-top: 75px;
+}
+.grp-one-heading h2{
+    font-family: 'Montserrat';
+    font-size: 64px;
+    padding: 0 0 35px 0;
+}
+.grp-one-para{
+    display: flex;
+}
+.grp-one-para img{
+    padding: 0 0 0 50px;
+}
+.grp-one-para p{
+    font-family: 'Montserrat';
+    font-size: 25.2px;
+    padding: 0 160px;
+}
+.inside-grp-one-cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+.grp-one-card-txt h3{
+    font-family: 'Montserrat';
+    font-size: 29px;
+    padding: 25px 0;
+}
+.grp-one-card-txt p{
+    font-family: 'Montserrat';
+    font-size: 17px;
+} 
+
+/* grp-two */
+.two ,.four{
+    background-color: #ffd17e;
+    padding-bottom: 40px;
+}
+.grp-two{
+    position: relative;
+    padding: 130px 0 90PX 0;
+}
+.inside-grp-two,.inside-grp-four{
+    display: flex;
+    justify-content: space-between;
+}
+.grp-two-imges{
+    position: relative;
+}
+.grp-two-img1 {
+    position: absolute;
+    top: 0;
+    left: 85PX;
+}
+.grp-two-main-img img ,.grp-four-main-img img{
+    min-height: 460px;
+    min-width: 465px;
+}
+.grp-two-main-img {
+    position: absolute;
+    top: 50px;
+    left: 135px;
+}
+.grp-two-img2 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.inside-grp-two-txt h3, .inside-grp-four-txt h3{
+    font-family: 'Montserrat';
+    font-size: 75px;
+    color: #21243d;
+    padding: 80px 0 60px 0;
+}
+.inside-grp-two-txt p,.inside-grp-four-txt p{
+    font-family: 'Montserrat';
+    font-size: 30px;
+    color: #21243d;
+    padding-bottom: 70px;
+}
+.inside-grp-two-txt  button,.inside-grp-four-txt  button{
+    font-family: 'Montserrat';
+    font-size: 25px;
+    font-weight: 700;
+    padding: 20px 75px;
+    background-color: #21243d;
+    border: 0;
+    border-radius: 40px;
+}
+
+.grp-two-img01{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.grp-two-img02{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+
+/* three grp */
+.grp-three {
+    padding: 50px 0;
+}
+.hd-grp-three{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.grp-three-img2 {
+    padding-top: 85px;
+}
+.hd-grp-three-txt{
+    padding: 0 100px;
+}
+.hd-grp-three-txt h3{
+    font-family: 'Montserrat';
+    font-size: 63px;
+}
+.hd-grp-three-txt p {
+    font-family: 'Montserrat';
+    font-size: 25px;
+    margin-top: 50px;
+}
+.grp-three-card{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 55px 0 50px 0;
+}
+.grp-three-card1 {
+    border-radius: 50%;
+    padding: 63px 65px;
+    border: 5px solid #fff;
+    margin-right: 130px;
+}
+.grp-three-card1 h4{
+    font-family: 'Montserrat';
+    font-size:75px;
+}
+.grp-three-card1 h6{
+    font-family: 'Montserrat';
+    font-size:42px;
+}
+.bt-grp-three-img{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+.grp-three-img6 {
+    position: absolute;
+    left: 15%;
+    bottom: -71px;
+    z-index: -8;
+}
+.grp-three-img7{
+    margin-right: 270px;
+}
+
+/* four grp */
+.grp-four{
+    padding: 150px 0 0 0;
+}
+.grp-four-imges,.grp-four-txt{
+    position: relative;
+    padding-bottom: 155px;
+}
+.grp-four-main-img {
+    position: absolute;
+    top: 50px;
+    right: 75px;
+}
+.grp-four-img1 {
+    position: absolute;
+    top: 0;
+    right: 30px;
+}
+.grp-four-img2 {
+    position: absolute; 
+    right: 0;
+    bottom: 0;
+}
+.grp-four-img01{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.grp-four-img02{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+/* grp -five */
+.grp-five{
+    background: url(../images/banner2.png);
+    background-size: 100%;
+}
+.inside-grp-five{
+    text-align: center;
+    padding: 145px 0 135px 0;
+}
+.grp-five-txt p{
+    font-family: 'Montserrat';
+    font-size: 42px;
+    padding: 45px 0;
+}
+.grp-five-txt h4{
+    font-family: 'Montserrat';
+    font-size:45px;
+}
+
+/* grp-six */
+.grp-six{
+    background-color: #ffd17e;
+    text-align: center;
+    position: relative;
+    padding: 25px 0 50px 0;
+}
+.grp-six-imgs{
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+}
+.grp-six-img2 {
+    position: absolute;
+    right: 23%;
+}
+.grp-six-img3{
+    position: absolute;
+    right: 0;
+    top: 25px;
+}
+
+.grp-six-txt h2{
+    font-family: 'Montserrat';
+    font-size: 75px;
+    color: #21243d;
+}
+.grp-six-txt p{
+    font-family: 'Montserrat';
+    font-size: 30px;
+    color: #21243d;
+    padding: 55px 0 40px;
+}
+form input{
+    font-family: 'Montserrat';
+    font-size: 25px;
+    border: 0;
+    border-radius: 35px;
+    padding: 20px 30px;
+    min-width: 590px;
+    margin-top: 40px;
+}
+.six-fm-bt{
+    font-family: 'Montserrat';
+    font-size: 25px;
+    background: #21243d;
+    border-radius: 35px;
+    padding: 20px 30px;
+    margin-left: -55px;
+}
+.grp-six-img5{
+    padding-top: 40px;
+}
+/* .grp-six-img5 img{
+    max-width: 175px;
+    max-height: 175px;
+} */
+
+
+/* footer */
+footer{
+    background: #111;
+    padding: 225px 0 290px 0;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+.box-card h5{
+    font-family: 'Montserrat';
+    font-size: 32px;
+    font-weight: 400;
+    padding-bottom: 35px;
+}
+.box-card p{
+    font-family: 'Montserrat';
+    font-size: 24px;
+}
+.ul{
+    display: flex;
+}
+.ul .li{
+    margin-top: 30px;
+}
+.ul li a i{
+    color: #111;
+    background: #fff;
+    padding: 10px;
+    border-radius: 25px;
+    margin-right: 15px;
+}
+.box-card ul li{
+    list-style: none;
+}
+.box-card ul li{
+    margin-top: 20px;
+}
+.box-card ul li a {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    text-decoration: none;
+}
+.footer-one{
+    margin-right: 160px;
+}
+.footer-two{
+    margin-right: 50px;
+}
+.footer-three{
+    margin-right: 40px;
+}

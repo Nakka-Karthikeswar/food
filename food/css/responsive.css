@@ -1,0 +1,409 @@
+@media screen and (max-width:1199px) {
+    .container{
+        width: 920px;   
+    }
+    img {
+        max-width: 70%;
+    }
+    .grp-one-para img {
+        padding: 0 0 0 40px;
+        max-width: 67px;
+    }
+    .grp-one-para p {
+        padding: 0 25px;
+    }
+    .hd-grp-three-txt {
+        padding: 0 31px;
+    }
+    .hd-grp-three-txt h3 {
+        font-family: 'Montserrat';
+        font-size: 56px;
+    }
+    .grp-two-main-img img, .grp-four-main-img img {
+        min-height: 260px;
+        min-width: 265px;
+    }
+    .inside-grp-two-txt h3, .inside-grp-four-txt h3 {
+        font-size: 65px;
+        padding: 65px 0 50px 0;
+    }
+    .inside-grp-two-txt p, .inside-grp-four-txt p {
+        font-size: 25px;
+    }
+    .inside-grp-two-txt button, .inside-grp-four-txt button {
+        font-size: 20px;
+    
+    }   
+    .grp-four-img1,.grp-two-img1 {
+        position: static;
+    }
+    .grp-three-card1 h4 {
+        font-family: 'Montserrat';
+        font-size: 55px;
+    }
+    .grp-three-card1 h6 {
+        font-size: 35px;
+    }
+    .grp-three-card1 {
+        padding: 43px 50px;
+        margin-right: 51px;
+    }
+}
+@media screen and (max-width: 979px){
+    .container{
+        width: 750px;
+    }
+    img {
+        max-width: 55%;
+    }
+    .inside-hd-grp-one nav ul li a {
+        font-size: 18px;
+    }
+    .hd-grp-two-txt {
+        padding: 50px 0 46px 0;
+    }
+    .hd-grp-two h2 {
+        font-size: 75px;
+    }
+    .hd-grp-two p {
+        font-family: 'Montserrat';
+        font-size: 28px;
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+    .hd-grp-two button {
+        font-size: 22px;
+        padding: 15px 55px;
+    }
+    .grp-one-heading h2 {
+        font-size: 50px;
+        padding: 0 0 28px 0;
+    }
+    .grp-one-para p {
+        font-size: 22.2px;
+    }
+    .grp-one-card-txt h3 {
+        font-size: 26px;
+        padding: 17px 0;
+    }
+    .grp-one-img4 {
+        display: none;
+    }
+    .grp-two-main-img img, .grp-four-main-img img {
+        min-height: 228px;
+        min-width: 233px;
+    }
+    .grp-two-txt-img {
+        max-width: 96px;
+    }
+    .inside-grp-two-txt h3, .inside-grp-four-txt h3 {
+        font-size: 50px;
+        padding: 25px 0 30px 0;
+    }
+    .inside-grp-two-txt p, .inside-grp-four-txt p {
+        font-size: 20px;
+        padding-bottom: 35px;
+    }
+    .grp-four-img1, .grp-two-img1 {
+        margin-left: 90px;
+    }
+    .grp-two-img2 {
+        left: 80px;
+        /* bottom: 30px; */
+    }
+    .inside-grp-two-txt button, .inside-grp-four-txt button {
+        font-size: 17px;
+        padding: 15px 40px;
+    }
+    .grp-three {
+        padding: 35px 0;
+    }
+    .hd-grp-three-txt h3 {
+        font-size: 36px;
+    }
+    .hd-grp-three-txt p {
+        font-size: 17px;
+    }    
+    .grp-three-card1 h4 {
+        font-size: 36px;
+    }
+    .grp-three-card1 h6 {
+        font-size: 24px;
+    }
+    .grp-three-card {
+        padding: 35px 0 50px 0;
+    }
+    .grp-three-card1 {
+        padding: 35px 35px;
+    }
+    .hd-grp-three-txt p {
+        margin-top: 25px;
+    }
+    .grp-five-img img {
+        max-width: 150px;
+    }
+    .inside-grp-five {
+        text-align: center;
+        padding: 60px 0 65px 0;
+    }
+    .grp-five-txt p {
+        font-size: 25px;
+        padding: 30px 0;
+    }
+    .grp-five-txt h4 {
+        font-family: 'Montserrat';
+        font-size: 28px;
+    }
+    .grp-six-txt h2 {
+        font-size: 50px;
+    }
+    .grp-six-txt p {
+        font-size: 25px;
+        padding: 20px 0 15px;
+    }        
+    form input {
+        font-size: 20px;
+        min-width: 496px;
+        margin-top: 28px;
+    }
+    .six-fm-bt {
+        font-size: 20px;
+    }
+    footer {
+        padding: 130px 0 150px 0;
+    }
+    .box-card p {
+        font-size: 18px;
+    }
+    .box-card ul li a {
+        font-size: 18px;
+    }
+    
+}
+@media screen and (max-width: 767px){
+    .container{
+        width: 96%;
+    }
+    .logo{
+        width: 100%;
+    }
+    img{
+        width: 30%;
+    }
+    .inside-hd-grp-one ul li,.search-icon span li ,
+    .grp-one-para img,.grp-one-img3,
+    .grp-two-img02, .hd-grp-three-img,
+    .grp-four-img02,.grp-six-imgs
+    {
+        display: none;
+    }
+    .menu ,.inside-grp-one-cards{
+        display: block;
+    }
+    .hd-grp-two h2 {
+        font-size: 25px;
+    }
+    .hd-grp-two p {
+        font-family: 'Montserrat';
+        font-size: 17px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .hd-grp-two button {
+        font-size: 14px;
+        padding: 8px 20px;
+    }
+    .grp-one {
+        position: relative;
+        text-align: center;
+        padding: 19px 0 35px 0;
+    }
+    .grp-one-heading h2 {
+        font-size: 25px;
+        padding: 0 0 15px 0;
+    }
+    .grp-one-para p {
+        font-size: 17.2px;
+    }
+    .grp-one-cards {
+        padding-top: 0px;
+    }
+    .grp-one-card1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+        margin-right: 30px;
+    }
+    .grp-one-img1 {
+        left: 0;
+        top: -3px;
+    }
+    .grp-one-img2 {
+        right: -70px;
+        top: -15px;
+    }
+    .grp-one-card-txt h3 {
+        font-size: 20px;
+        padding: 14px 0;
+    }
+    .grp-one-card-txt p {
+        font-size: 14px;
+    }
+    .grp-one-card-img {
+        max-width: 150px;
+    }
+    .grp-one-img5 {
+        bottom: 15px;
+    }
+    .grp-two-main-img img, .grp-four-main-img img {
+        min-height: 100px;
+        min-width: 100px;
+    }
+    .grp-two-main-img {
+        position: absolute;
+        top: 0px;
+        left: 0;
+    }
+    .two, .four {
+        padding-bottom: 10px;
+    }
+    .grp-four-img1 {
+        margin-left: 0px;
+    }
+    .inside-grp-two-txt h3, .inside-grp-four-txt h3 {
+        font-size: 25px;
+        padding: 15px 0 18px 0;
+    }
+    .inside-grp-two-txt p, .inside-grp-four-txt p {
+        font-size: 16px;
+        padding-bottom: 15px;
+    }
+    .inside-grp-two-txt button, .inside-grp-four-txt button {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+    .grp-two {
+        padding: 20px 0 20PX 0;
+    }
+    .grp-three {
+        padding: 20px 0;
+    }
+    .hd-grp-three-txt h3 {
+        font-size: 25px;
+    }  
+    .hd-grp-three-txt p {
+        margin-top: 15px;
+        font-size: 14px;
+    }
+    .grp-three-card1 {
+        padding: 15px 15px;
+        margin-right: 20px;
+        text-align: center;
+    }
+    .grp-three-card1 h4 {
+        font-size: 25px;
+    }
+    .grp-three-card1 h6 {
+        font-size: 15px;
+    }
+    .grp-three-card {
+        padding: 20px 0 0px 0;
+    }
+    .grp-four {
+         padding: 20px 0 0 0;
+    }
+    .grp-four-imges, .grp-four-txt {
+        padding-bottom: 20px;
+    }
+    .grp-four-txt-img {
+        max-width: 70px;
+    }
+    .grp-two-img1{
+        display: inline;
+    }
+    .grp-four-main-img {
+        position: absolute;
+        top: 11px;
+        right: 0;
+    }
+    .grp-four-img2 {
+        right: 0;
+        bottom: 40px;
+    }
+    .inside-grp-five {
+        padding: 30px 0 30px 0;
+        display: flex;
+        gap: 15px;  
+    } 
+    .grp-five-txt p {
+        font-size: 14px;
+        padding: 15px 0;
+    }
+    .grp-five-img img {
+        max-width: 130px;
+        width: 96%;
+    }
+    .grp-five-txt h4 {
+        font-size: 20px;
+    }
+    .grp-six-txt h2 {
+        font-size: 25px;
+    }
+    .grp-six-txt p {
+        font-size: 15px;
+        padding: 15px 0 15px;
+    }
+    form input {
+        font-size: 15px;
+        min-width: 170px;
+        margin-top: 10px;
+        padding: 13px 15px;
+    }
+    .six-fm-bt {
+        font-size: 15px;
+        padding: 13px 15px;
+    }
+
+
+    .box-card h5 {
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+    .box-card p {
+        font-size: 14px;
+    }
+    .box {
+        display: block;
+        text-align: center;
+    }
+    footer {
+        padding: 30px 0 45px 0;
+    }
+    .footer-one,.footer-two,
+    .footer-three{
+        margin-right: 0px;
+    }
+    .footer-two, .footer-three, .footer-four {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-around;
+        border-top: 1px solid #fff;
+        padding: 10px 0;
+    }    
+    .ul {
+        justify-content: center;
+        align-items: baseline;
+    }
+    .ul .li {
+        margin-top: 10px;
+    }
+    .box-card ul li a {
+        font-size: 14px;
+        color: #ffd17e;
+    }
+    .box-card ul li:first-child{
+        margin-top: 0;
+    }
+    
+}
